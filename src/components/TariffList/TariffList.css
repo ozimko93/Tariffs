@@ -1,0 +1,24 @@
+.tariff-list {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+.tariff:nth-child(1) h3,
+.tariff:nth-child(1) .price {
+  background-color: #3ab7c0;
+}
+.tariff:nth-child(2) h3,
+.tariff:nth-child(2) .price {
+  background-color: #43b78c;
+}
+.tariff:nth-child(3) h3,
+.tariff:nth-child(3) .price {
+  background-color: #e74c3c;
+}
+.tariff:nth-child(4) h3,
+.tariff:nth-child(4) .price {
+  background-color: #333;
+}
